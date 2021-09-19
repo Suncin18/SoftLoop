@@ -412,7 +412,7 @@ body {
         width: 90%;
         margin: 0% 5% 10%;
     }
-    
+
     /* .main__nav {
         display: flex;
     } */
@@ -469,15 +469,24 @@ body {
         margin-top: 17%;
     }
     
+    /* PARTE BAJA DEL HEADER*/
+    /* IZQUIERDA */
+    .header__izquierda{
+        width: fit-content;
+        margin: 0 0%;
+        text-align: left;
+    }
     .header__izquierda :nth-child(1) {
+        margin-top: 0px;
         color: #8BC53F;
         font-weight: 700;
         font-size: 70px;
         animation-name: aparecer1;
         animation-duration: 5s;
         font-family: Gotham-Bold;
+        /* margin-left: 10px; */
+        margin-bottom: 0px;
     }
-    
     .header__izquierda :nth-child(2) {
         color: #fff;
         font-weight: 700;
@@ -485,8 +494,9 @@ body {
         animation-name: aparecer2;
         animation-duration: 7s;
         font-family: Gotham-Bold;
+        /* margin-left: 10px; */
+        margin-bottom: 0px;
     }
-    
     .header__izquierda :nth-child(3) {
         -webkit-text-stroke: 1px #8BC53F;
         color: transparent;
@@ -494,16 +504,19 @@ body {
         animation-name: aparecer3;
         animation-duration: 7s;
         font-family: Gotham-Bold;
+        /* margin-left: 10px; */
     }
-    
-    .header__derecha {
+
+    /* DERECHA */
+    .header__derecha{
+        width: 30%;
+        margin: 0 0%;
         display: flex;
         flex-direction: column;
         align-content: flex-end;
         margin-left: auto;
         width: 30%;
     }
-    
     .header__derecha h1 {
         color: #8BC53F;
         font-size: 50px;
@@ -511,17 +524,18 @@ body {
         animation-name: aparecer1;
         animation-duration: 9s;
         font-family: Gotham-Bold;
+        margin-top: 0px;
+        margin-left: 0px;
     }
-    
     .header__derecha p {
         color: #fff;
         font-size: 25px;
         text-align: justify;
-        margin-top: 20px;
         animation-name: aparecer2;
         animation-duration: 9.5s;
+        width: 100%;
+        margin: 20px 0%;
     }
-    
     
     /*Quienes Somos*/
     #QuienesSomos {
